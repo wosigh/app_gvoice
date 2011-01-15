@@ -1,0 +1,46 @@
+<div id="main" class="palm-hasheader" width="320">
+	<div class="palm-header center" id="main-hdr">Options</div>		
+	
+	<table>
+		<tr>
+			<td colspan=2 align="center"> <div>[press enter to switch boxes]</div></td>
+		</tr>
+		<tr>
+			<td><div class="defaultText">GV #: </div></td>
+			<td><div id="phoneInput" x-mojo-element="TextField" align="left" class="defaultText"></div></td>
+		</tr>
+		<tr>
+			<td><div class="defaultText">PIN: </div></td>
+			<td><div id="pinInput" x-mojo-element="PasswordField" align="left" class="defaultText"></div></td>
+		</tr>
+		<tr>
+			<td><div class="defaultText">Email: </div></td>
+			<td><div id="emailInput" x-mojo-element="TextField" align="left" class="defaultText"></div></td>
+		</tr>
+		<tr>
+			<td><div class="defaultText">Passwd:</div></td>
+			<td><div id="passwordInput" x-mojo-element="PasswordField" align="left" class="defaultText"></div></td>
+		</tr>
+		<tr>
+			<td colspan=2><div x-mojo-element="CheckBox" id="usePinCheckbox" class="checkboxClass"></div><div class="defaultText">Enter PIN code for phone call?</div></td>
+		</tr>
+		<tr>
+			<td colspan=2><div x-mojo-element="CheckBox" id="voicemailDialCheckbox" class="checkboxClass"></div><div class="defaultText">Dial from voicemail (vs. web)?</div></td>
+		</tr>
+		<tr>
+			<td><div class="defaultText">Fwd #: </div></td>
+			<td><div id="fwdPhoneInput" x-mojo-element="TextField" align="left" class="defaultText"></div></td>
+		</tr>
+		<tr>
+			<div x-mojo-element="Slider" id="pauseSlider" class="sliderClass" name="sliderName"></div>
+		</tr>
+		<!--
+		<tr>
+			<td colspan=2 align="center"> <div x-mojo-element="Button" id="btnSave" class="buttonClass"></div></td>
+		</tr>
+		<tr>
+			<td colspan=2 align="center"> <div x-mojo-element="Button" id="btnDelete" class="buttonClass"></div></td>
+		</tr>
+		-->
+	</table>
+</div>

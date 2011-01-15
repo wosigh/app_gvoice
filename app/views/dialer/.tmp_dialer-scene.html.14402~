@@ -1,0 +1,46 @@
+<table class="dialer-table" cellspacing=0 style="position: absolute; top: 0px;">
+	<tr>			
+		<td colspan=3 style="height: 33px;">
+			<table border=0>
+				<tr>
+					<td width="275" valign="middle" align="center">
+						<div id="phoneNumber" style="color: #FFFFFF; position: relative; top: -18px;">
+							<span id="dialerLabel">Enter number or choose contact...</span>
+						</div>
+					</td>
+					<td width="45" valign="middle" align="center">
+						<div id="btnContactsBackspace">
+							<img id="imgContactsBackspace" src="images/contacts.png" style="position: relative; top: -6px;"></img>						
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="1">&nbsp;</td>
+		<td class="dialer-cell" id="2">&nbsp;</td>
+		<td class="dialer-cell" id="3">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="4">&nbsp;</td>
+		<td class="dialer-cell" id="5">&nbsp;</td>
+		<td class="dialer-cell" id="6">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="7">&nbsp;</td>
+		<td class="dialer-cell" id="8">&nbsp;</td>
+		<td class="dialer-cell" id="9">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="*">&nbsp;</td>
+		<td class="dialer-cell" id="+">&nbsp;</td>
+		<td class="dialer-cell" id="#">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="btnCall" colspan=3 align="right">
+			<div x-mojo-element="Spinner" id="spinnerIdSmall" name="spinnerName" style="position: fixed; left: 270px;"></div>
+		</td>
+	</tr>
+</table>
+<img id="bg" src="images/bg_dialer.png" style="position: fixed; left: 0px; top: 0px; z-index: -1; width: 320px;"></img>

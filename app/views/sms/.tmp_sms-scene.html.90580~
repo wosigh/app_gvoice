@@ -1,0 +1,29 @@
+<div id="main">
+	<img src="images/smsBG.png" style="position: fixed; top: 10px; left: 0px; z-index:-1;"></img>	
+	<center>
+		<table class="sms-table" cellpadding=0 border=0 style="position: fixed; top: 15px; left: 4px; z-index:-1;">
+			<tr>
+				<td align="left" valign="middle" style="color: #000000;">To: </td>
+				<td width="310" valign="middle"><div x-mojo-element="TextField" id="phoneNumber" style="width: 225px; font-size: 32px; color: #000000; border: 0px; position: relative; top: -2px;"></div></td>
+				<td id="btnContacts"><img src="images/contacts.png" style="position: relative; left: -7px; top: 2px;"></img></td>
+			</tr>
+			<tr>
+				<td colspan=3>				
+					<div x-mojo-element="RichTextEdit" id="message" class="message"></div>
+				</td>		
+			</tr>
+			<tr height="20" valign="bottom">
+				<td colspan=3 id="charCount" align="right" style="">				
+					0 / 160
+				</td>		
+			</tr>
+			<tr>
+				<td colspan=3 align="center" style="height: 50px;">				
+					<div x-mojo-element="Button" id="btnSMS" class="buttonfloat" name="btnSMS"></div>
+				</td>		
+			</tr>			
+		</table>
+	</center>
+	<div id="status"></div>	
+</div>
+<img id="bg" src="images/bg.png" style="position: fixed; left: 0px; top: 0px; z-index: -1; width: 320px; height: 452px;"></img>

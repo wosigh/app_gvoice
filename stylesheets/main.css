@@ -1,0 +1,293 @@
+/*
+ * DIALER
+ */
+.dialer-table {
+	 height: 100%;
+	 text-align: center;
+	 width: 100%;
+}
+
+.dialer-cell {	
+	height: 58px;	
+	text-align: center;
+	width: 33%;	
+}
+
+.dialer-digit {	
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.dialer-letters {	
+	color: #888888;
+	font-size: 14px;	
+}
+
+#dialerLabel {
+	color: #FFFFFF;
+	font-size: 16px;
+	position: relative;
+	top: -8px;
+}
+
+#spinnerIdSmall {
+	position: fixed;
+	left: 270px;
+	top: 315px;
+}
+
+.phoneNumberSMS {
+	color: #FFFFFF;
+	font-size: 38px;
+	font-family: courier;
+	height: 44px;
+	text-align: center;
+}
+
+.phoneNumberDialer {
+	color: #FFFFFF;
+	font-size: 28px;
+	font-family: courier;
+	height: 30px;
+	text-align: center;
+}
+
+/*
+ * SMS
+ */
+.message {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 20px;
+	font-family: courier;
+	height: 170px;
+}
+
+#charCount {
+	color: white;
+	height: 15px;
+	font-size: 12px;
+}
+
+.sms-table {
+	border: 1px;
+	height: 200px;
+	width: 310px;	
+}
+
+/*
+ * History and Voicemail
+ */
+#spinnerId {
+	position: fixed;
+	left: 97px;
+	top: 150px;
+}
+
+.listCell {
+	color: #FFFFFF;	
+}
+
+/*
+ * Options
+ */
+.defaultText {
+	color: #FFFFFF;
+}
+
+/*
+ * APP
+ */
+#app {
+
+}
+
+#main {
+
+}
+
+div.palm-group
+{
+	-webkit-border-image: url(../images/palm-group.png) 40 18 18 18 repeat repeat;
+}
+.palm-menu.command-menu.palm-default > .palm-menu-fade
+{
+	background: url(../images/command-menu-gradient.png) bottom left repeat-x;  
+}
+div.palm-list .row
+{
+	background: url(../images/list-seperator.png) bottom left repeat-x;
+	margin: 0;
+	width: auto;         
+	padding: 15px 0 13px 0;
+	border-bottom: 1px transparent;
+}
+.center 
+{
+	text-align:center;
+}
+.clear
+{
+	clear:both;
+}
+.round
+{
+	-webkit-border-radius: 5px;
+}
+.palm-group .palm-row.single .textfield-group
+{                                                        
+	border-width: 15px;
+	-webkit-border-image: url(../images/inactive_textfield.png) 15 15 15 15 stretch stretch;
+	color:#111;
+}
+.palm-group .palm-row.single .integerpicker-group
+{                                                        
+	border-width: 15px;
+	-webkit-border-image: url(../images/inactive_textfield.png) 15 15 15 15 stretch stretch;
+	color:#111;
+}
+.palm-group .palm-row.single .textfield-group .hint-text
+{
+	color:#999;
+}
+
+div.sectionHead
+{
+	font-size:14px;
+	font-weight:bold;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color:#FFF;
+	text-shadow: rgb(100, 100, 84) 0px 1px 0px;
+	height:28px;
+	margin:20px 8px 4px 8px;
+	line-height: 28px;
+	padding: 0;
+	-webkit-border-image: url(../images/section_header.png) 0 19 0 19 stretch stretch;
+	border-width: 2px 16px 2px 16px;
+}
+
+.buttonfloat {
+	width: 90%;
+}
+
+/*
+ * Popups
+ */
+.palm-device-menu {
+	width: 120px;
+}
+
+/*
+ * Menu
+ */
+.cmdMenu {
+	position: fixed;
+	left: 25px;
+}
+
+.nav_dialer {
+	background-image: url(../images/nav_dialer.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_sms {
+	background-image: url(../images/nav_sms.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_history {
+	background-image: url(../images/nav_history.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_voicemail {
+	background-image: url(../images/nav_voicemail.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_mobile {
+	background-image: url(../images/nav_mobile.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_speeddial {
+	background-image: url(../images/nav_speeddial.png);
+	background-position:center;
+	background-repeat: no-repeat;
+}
+
+.nav_call_voicemail {
+	background-image:url(../images/nav_voicemail.png);
+	background-repeat:no-repeat;
+	top:11px;
+	left:-17px;
+}
+
+.nav_update {
+	background-image:url(../images/nav_update.png);
+	background-repeat:no-repeat;
+	top:15px;
+	left:-10px;
+}
+
+/*
+ * SUPPORT
+ */
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../icon32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:48px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}

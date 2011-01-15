@@ -1,0 +1,82 @@
+/*
+ 
+HistoryAssistant.prototype.handlePlayVoicemail = function() {
+	Mojo.Log.info("enter handlePlayVoicemail()");
+	
+	var request = new Ajax.Request('https://www.google.com/accounts/ServiceLoginAuth?service=grandcentral', {
+				method: 'post',
+				parameters: { 'Email' : this.user.email, 'Passwd' : this.user.password },
+				onSuccess: this.downloadVoicemail.bind(this),
+				//onSuccess: this.playVoicemail2.bind(this),
+				onFailure: this.appAssistant.handleError.bind(this)
+			});	
+	
+//	var request = new Ajax.Request('https://www.google.com/accounts/ClientLogin', {
+//		method: 'post',
+//		parameters: { 'accountType': 'GOOGLE',
+//					  'Email': this.user.email,
+//					  'Passwd': this.user.password,
+//					  'service': 'grandcentral',
+//					  'source': 'd0lph1nk1ng-dkGoogleVoice-0-5-0' },
+//		onSuccess: this.playVoicemail2.bind(this),
+//		onFailure: this.appAssistant.handleError.bind(this)
+//	});
+	
+	Mojo.Log.info("exit handlePlayVoicemail()");
+}
+
+HistoryAssistant.prototype.downloadVoicemail = function() {
+	Mojo.Log.info("enter downloadVoicemail()");
+	
+	var params = {
+		target: 'https://www.google.com/voice/media/send_voicemail/c975b2de5f505bf36941032c9377e0f103a1ec27',
+		targetDir: '/media/internal/downloads',
+		subscribe: true
+	}
+	
+	Mojo.Log.info("params: " + Object.toJSON(params));
+	
+	this.controller.serviceRequest('palm://com.palm.downloadmanager', {
+        method: 'download',
+        parameters: params,
+        onSuccess: this.playVoicemail.bind(this),
+        onFailure: this.appAssistant.handleError.bind(this)
+    }); 
+	
+	Mojo.Log.info("exit downloadVoicemail()");	
+}
+
+HistoryAssistant.prototype.playVoicemail = function(event) {
+	Mojo.Log.info("enter playVoicemail()");
+	
+	Mojo.Log.info("DONE!!!!!!!!!!!!!!!");
+	
+	Mojo.Log.info("Voicemail download response: " + Object.toJSON(event));
+	
+	this.audioPlayer = new Audio();
+	if (this.audioPlayer.palm) {
+		this.audioPlayer.mojo.audioClass = "media";
+	}
+	this.audioPlayer.src = event.target;
+	this.audioPlayer.play();
+		
+	Mojo.Log.info("exit playVoicemail()");	
+}
+
+HistoryAssistant.prototype.playVoicemail2 = function(event) {
+	Mojo.Log.info("enter playVoicemail2()");
+	//this.audioStream.src = 'https://www.google.com/voice/m/playvoicemail?id=1a32e5140ee35b8d2154b0b35e62d5f0cf3d3cc3&auth=' + auth;
+	this.audioStream.src = 'https://www.google.com/voice/media/send_voicemail/c975b2de5f505bf36941032c9377e0f103a1ec27';
+   	this.audioStream.play();
+		
+	Mojo.Log.info("exit playVoicemail2()");	
+}
+
+HistoryAssistant.prototype.audioStarted = function(event) {
+	Mojo.Log.info("enter audioStarted()");
+	
+	Mojo.Log.info('in here');	
+		
+	Mojo.Log.info("exit audioStarted()");	
+}    
+*/

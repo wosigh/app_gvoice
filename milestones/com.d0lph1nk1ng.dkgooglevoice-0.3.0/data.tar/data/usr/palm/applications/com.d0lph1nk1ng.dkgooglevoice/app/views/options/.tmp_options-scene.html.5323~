@@ -1,0 +1,21 @@
+<div id="#options">
+  <center>
+	  <div>Tap color to select.</div>
+	  <table style="width: 95%">
+	    <tr><td class="color" id="#FF0000" style="background-color: #FF0000" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#FF6A00" style="background-color: #FF6A00" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#FFD800" style="background-color: #FFD800" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#B6FF00" style="background-color: #B6FF00" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#4CFF00" style="background-color: #4CFF00" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#00FF21" style="background-color: #00FF21" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#00FF90" style="background-color: #00FF90" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#00FFFF" style="background-color: #00FFFF" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#0094FF" style="background-color: #0094FF" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#0026FF" style="background-color: #0026FF" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#4800FF" style="background-color: #4800FF" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#B200FF" style="background-color: #B200FF" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#FF00DC" style="background-color: #FF00DC" onclick="getColor(this);">&nbsp;</td></tr>
+		<tr><td class="color" id="#FF006E" style="background-color: #FF006E" onclick="getColor(this);">&nbsp;</td></tr>
+	  </table>
+  </center>
+</div>

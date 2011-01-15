@@ -1,0 +1,10 @@
+{
+	"id": "com.d0lph1nk1ng.dkgooglevoice",
+	"version": "0.3.0",
+	"vendor": "d0lph1nK1ng",
+	"type": "web",
+	"main": "index.html",
+	"title": "dkGoogleVoice",
+	"icon": "icon.png",
+	"removable": true
+}

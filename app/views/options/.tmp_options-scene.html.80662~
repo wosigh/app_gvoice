@@ -1,0 +1,82 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">dkGoogleVoice Settings</div>		
+</div>
+
+<div class="palm-group">
+	<div class="palm-group-title" x-mojo-loc=''>Google Voice Login</div>
+		<div class="palm-list">
+	   		<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="TextField" id="emailInput" class="listClass"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="PasswordField" id="passwordInput" class="listClass"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="palm-group">
+	<div class="palm-group-title" x-mojo-loc=''>Google Voice Phone Number</div>
+		<div class="palm-list">
+	   		<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="TextField" id="phoneInput" class="listClass"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div x-mojo-element="RadioButton" id="dialTypeRadio" class="radiobuttonClass"></div>
+
+<div x-mojo-element="RadioButton" id="usePinRadio" class="radiobuttonClass"></div>
+
+<div class="sectionHead">Voicemail Dial Settings</div>
+
+<div class="palm-group">
+	<div class="palm-group-title" x-mojo-loc=''>Google Voice PIN Code</div>
+		<div class="palm-list">
+	   		<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div id="pinInput" x-mojo-element="PasswordField"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="IntegerPicker" id="pausePicker" class="integerpickerClass" style="valign: middle;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="sectionHead">Web Dial Settings</div>
+
+<div class="palm-group">
+	<div class="palm-group-title" x-mojo-loc=''>Cell Phone Number</div>
+		<div class="palm-list">
+	   		<div class="palm-row single">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title">
+	      				<div x-mojo-element="TextField" id="fwdPhoneInput" class="listClass" name="fwdPhoneInput"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

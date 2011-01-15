@@ -1,0 +1,111 @@
+#app {
+
+}
+
+#main {
+
+}
+
+.dialer-table {
+	 height: 100%;
+	 text-align: center;
+	 width: 100%;
+}
+
+.dialer-cell {	
+	height: 58px;	
+	text-align: center;
+	width: 33%;	
+}
+
+.dialer-digit {	
+	color: #000000;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.dialer-letters {	
+	color: #888888;
+	font-size: 14px;	
+}
+
+#phoneNumber {
+	/*border: 3px solid #000000;
+	background-color: #FFFFFF;*/
+	color: #FFFFFF;
+	font-size: 38px;
+	font-family: courier;
+	height: 44px;
+	text-align: center;
+}
+
+.message {
+	border: 3px solid #000000;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 20px;
+	font-family: courier;
+	height: 150px;
+}
+
+.sms-table {
+	border: 1px;
+	height: 200px;
+	width: 314px;
+}
+
+.buttonfloat {
+	width: 90%;
+}
+
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../icon32x32.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:48px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}

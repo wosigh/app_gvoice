@@ -1,0 +1,44 @@
+<table class="dialer-table" cellspacing=0 style="position: absolute; top: 0px;">
+	<tr>			
+		<td colspan=3 style="height: 52px;">
+			<table border=0>
+				<tr>
+					<td width="275" valign="middle" align="center">
+						<div id="phoneNumber" style="color: #FFFFFF; position: relative; top: -8px;"></div>
+					</td>
+					<td width="45" valign="middle" align="center">
+						<div id="btnContactsBackspace">
+							<img src="images/c.png" id="imgContactsBackspace"></img>						
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '1'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '2'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '3'; setToggledImage();">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '4'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '5'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '6'; setToggledImage();">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '7'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '8'; setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '9'; setToggledImage();">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '*';">&nbsp;</td>
+		<td class="dialer-cell" onclick="if(document.getElementById('imgContactsBackspace').src.indexOf('c.png') >= 0) { document.getElementById('phoneNumber').innerHTML += '+'; } else { document.getElementById('phoneNumber').innerHTML += '0'; }  setToggledImage();">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '#';">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="btnCall" colspan=3>&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="btnGetConnected" colspan=3>&nbsp;</td>
+	</tr>
+</table>

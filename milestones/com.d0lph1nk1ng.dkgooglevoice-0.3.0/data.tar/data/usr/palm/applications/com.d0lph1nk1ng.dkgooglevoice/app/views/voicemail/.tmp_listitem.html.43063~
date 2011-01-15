@@ -1,0 +1,10 @@
+<div class="row textfield" x-mojo-tap-highlight='momentary'>
+	<div id="lap" class="title">
+		<table width="100%" cellpadding="10">
+			<tr>
+				<td width="25%" align="left">#{lapNum}</td>
+				<td width="75%" align="left">#{lapTime}</td>
+			</tr>
+		</table>		
+	</div>
+</div>

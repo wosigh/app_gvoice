@@ -1,0 +1,8 @@
+<div class="row textfield removable" x-mojo-gesture='Mojo.Gesture.HorizontalDrag' style="height: 58px; valign: middle;">
+	<table width=100% cellpadding="0" cellspacing="0" border=0>
+		<tr>
+			<td width="58" align="center"><img src="#{photoURL}" style="position: relative; top: 4px;" /></td>
+			<td align="left" class="listCell" style="font-size: 18px; position: relative; left: 20px;">#{contactName}</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,35 @@
+[
+	{
+		"source": "app/assistants/stage-assistant.js"
+	},
+	{
+		"source": "app/assistants/main-assistant.js"
+	},
+	{
+		"source": "app/assistants/dialer-assistant.js"
+	},
+	{
+		"source": "app/assistants/sms-assistant.js"
+	},
+	{
+		"source": "app/assistants/history-assistant.js"
+	},
+	{
+		"source": "app/assistants/voicemail-assistant.js"
+	},
+	{
+		"source": "app/assistants/support-assistant.js"
+	},
+	{
+		"source": "app/assistants/faq-assistant.js"
+	},
+	{
+		"source": "app/assistants/expired-assistant.js"
+	},
+	{
+		"source": "app/assistants/options-assistant.js"
+	},
+	{
+		"source": "javascript/support_info.js"
+	}
+]

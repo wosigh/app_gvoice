@@ -1,0 +1,72 @@
+<!--
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">Dialer</div> -->	
+	
+	<div id="phoneNumber"></div>
+	<table class="dialer-table" cellspacing=0>
+		<tr>			
+			<td colspan=3></td>
+		</tr>
+		<tr>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '1';">
+				<span class="dialer-digit">1</span><br>
+				<span class="dialer-letters">&nbsp;</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '2';">
+				<span class="dialer-digit">2</span><br>
+				<span class="dialer-letters">ABC</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '3';">
+				<span class="dialer-digit">3</span><br>
+				<span class="dialer-letters">DEF</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '4';">
+				<span class="dialer-digit">4</span><br>
+				<span class="dialer-letters">GHI</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '5';">
+				<span class="dialer-digit">5</span><br>
+				<span class="dialer-letters">JKL</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '6';">
+				<span class="dialer-digit">6</span><br>
+				<span class="dialer-letters">MNO</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '7';">
+				<span class="dialer-digit">7</span><br>
+				<span class="dialer-letters">PQRS</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '8';">
+				<span class="dialer-digit">8</span><br>
+				<span class="dialer-letters">TUV</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '9';">
+				<span class="dialer-digit">9</span><br>
+				<span class="dialer-letters">WXYZ</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '*';">
+				<span class="dialer-digit">*</span><br>
+				<span class="dialer-letters">&nbsp;</span>
+			</td>
+			<td class="dialer-cell" onclick="if(document.getElementById('phoneNumber').length = 0) { document.getElementById('phoneNumber').innerHTML += '+'; } else { document.getElementById('phoneNumber').innerHTML += '0'; }">
+				<span class="dialer-digit">0</span><br>
+				<span class="dialer-letters">+</span>
+			</td>
+			<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '#';">
+				<span class="dialer-digit">#</span><br>
+				<span class="dialer-letters">DEF</span>
+			</td>
+		</tr>
+		<tr>
+			<td class="dialer-cell" id="btnContacts">Contacts</td>
+			<td class="dialer-cell" id="btnCall">Dial</td>
+			<td class="dialer-cell" onclick="var num = document.getElementById('phoneNumber').innerHTML; num = num.substr(0, num.length-1); document.getElementById('phoneNumber').innerHTML = num;"><=</td>
+		</tr>
+	</table>
+<!-- </div> -->

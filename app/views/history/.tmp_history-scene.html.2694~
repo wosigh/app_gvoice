@@ -1,0 +1,7 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">History</div>
+</div>
+
+<div x-mojo-element="Spinner" id="spinnerId" name="spinnerName"></div>
+<div id="lstHistory" x-mojo-element="List"></div>
+

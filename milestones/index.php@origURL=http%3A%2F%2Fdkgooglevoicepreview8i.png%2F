@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://twcrr-9.vo.llnwd.net/d1/dnsredirect/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Website Suggestions</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="NOINDEX, NOFOLLOW" />
+
+<!-- CSS START -->
+	<link rel="stylesheet" type="text/css" href="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/css/ver2/default.css" />
+	<link rel="stylesheet" type="text/css" href="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/css/ver2/reset-min.css" /> 
+<!-- CSS END -->
+
+<!-- JS Include START -->
+<script type="text/javascript" src="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/js/prototype-1.6.js"></script>
+<script type="text/javascript" src="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/js/default.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var searchType = 'nxd';
+var did = '42';
+/* ]]> */
+</script>
+<!-- JS Include END -->
+</head>
+<body>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+try {
+var pageTracker = _gat._getTracker("UA-6440685-1");
+pageTracker._trackPageview();
+} catch(err) {}
+/* ]]> */
+</script>
+
+<div id="wrapper">
+<!-- HEADER START -->
+<div id="topHeader">
+<div id="headerlogo">
+<a href="http://www.rr.com/"><img src="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/img/rrlogo_small.gif" width="147" height="32" border="0" id="rrHeaderLeft" alt="Go to Road Runner Portal" /></a>
+</div>
+
+<div class="yahooSearchBox">
+	<div class="form">
+		<form action="/index.php" onSubmit="return checkForEmptySearchBox(querybox);">
+			<input size="70" type="text" class="searchfields" name="querybox" value="" /><input type="submit" value="Search" class="searchbutton" size="50" />
+		</form>		
+	</div>
+	<div class="yahooLogo"><img src="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/img/stacked_left_ascii.gif" alt="Powered by YAHOO! Search" width="84" height="24"/></div>
+		
+	<div class="whyamihere" title="Why Am I Here?">Why Am I Here?</div>
+
+</div>
+
+</div>
+<!-- WHAT IS THIS START -->
+<div class="whatsthis" id="whatsthis">
+	<div class="whyContent">
+		<div class="whyamihere closebox">[X] CLOSE</div>
+		<h1>Why Am I Here?</h1>
+		<p>
+			You entered an unknown web address that was used to present 
+			site suggestions that you may find useful. Clicking any of 
+			these suggestions provides you with search results, which may 
+			include relevant sponsored links.
+		</p>
+		<p>
+			If this service is not right for you, please visit your 
+			<a href="/index.php?view=prefs">Preferences</a> page to opt out. At 
+			any point in time, you can opt back in to the service by 
+			visiting your <a href="/index.php?view=prefs">Preferences</a> page.
+		</p>
+		<p>
+			If you have other questions about this service, please visit our <a href="/index.php?view=FAQ">FAQ</a>.
+		</p>
+		<p>
+			For further assistance, please go to <a href="http://help.rr.com" target="_blank">http://help.rr.com</a>.
+		</p>
+	</div>
+</div>
+<!-- WHAT IS THIS END -->
+<div id="webBanner">Web</div>
+
+<!-- HEADER END -->
+
+
+	<div id="safeHost">
+			Sorry, we couldn't find <span class="red">dkgooglevoicepreview8i.png</span>
+	</div>
+	<div id="middlePane">
+		<div id="columns">
+			<div id="leftCol" class="column">
+
+
+<div class="container sponsoredLinks" id="sponsoredLinks">
+<div class="sectionHeader">Sponsored Links</div>
+<div class="containerContent">
+<p class="noLinks">No sponsored links found.</p>
+</div>
+</div>
+
+
+<div class="container" id="webResults">
+<div class="sectionHeader">Web Results</div>
+<div class="containerContent">
+<p class="noLinks">No web results found.</p>
+</div>
+</div>
+			</div>
+			<div id="rightCol" class="column">
+			</div>
+			<div id="midFooter" class="column">
+			</div>
+		</div>
+
+</div>
+	<div id="pbContainer">
+		<div id="promoBox">
+		<p>FREE Road Runner Toolbar: <a href="http://www.rr.com/toolbar/download" target="_blank">Learn More!</a></p>		</div>
+	</div>
+	<div id="bottomSearchBox">
+		
+<div class="yahooSearchBox">
+	<div class="form">
+		<form action="/index.php" onSubmit="return checkForEmptySearchBox(querybox);">
+			<input size="70" type="text" class="searchfields" name="querybox" value="" /><input type="submit" value="Search" class="searchbutton" size="50" />
+		</form>		
+	</div>
+	<div class="yahooLogo"><img src="http://twcrr-9.vo.llnwd.net/d1/dnsredirect/img/stacked_left_ascii.gif" alt="Powered by YAHOO! Search" width="84" height="24"/></div>
+		
+
+</div>
+
+	</div>
+	<hr class="standard" />
+	<div id="nxd_footer">
+		<div id="opt_out_link"><a href="/index.php?view=prefs" title="Opt In or Out of this Service">Opt In or Out of this Service</a></div>
+		
+<div id="copyright">&copy; 2009 Road Runner HoldCo LLC. All rights reserved.</div>
+	</div>
+</div>
+</body>
+</html>

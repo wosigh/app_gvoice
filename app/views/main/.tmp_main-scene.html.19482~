@@ -1,0 +1,15 @@
+<div id="main" class="palm-hasheader">
+  <div class="palm-header center" id="main-hdr">
+    dkEightBall
+  </div>	
+	
+  <center>
+	<table width="200" height="100" border=0 style="position:relative;top:120px;">
+		<tr>			
+			<td align="center">
+				<div id="message"></div>
+			</td>
+		</tr>
+	</table>
+  </center>
+</div>

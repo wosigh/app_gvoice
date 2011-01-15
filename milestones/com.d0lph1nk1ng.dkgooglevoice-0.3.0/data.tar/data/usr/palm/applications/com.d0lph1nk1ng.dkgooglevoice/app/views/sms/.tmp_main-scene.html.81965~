@@ -1,0 +1,22 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">
+	  d0lph1nStopwatch
+	</div>	
+	
+	<table width="100%" cellpadding="20">
+		<tr>
+			<td width="50%" align="left">Time:</div></td>
+			<td width="50%" align="right"><div id="time">0.00</div></td>
+		</tr>
+	</table>
+	<table width="100%">
+		<tr>
+			<td width="50%"><div x-mojo-element="Button" id="btnStartStop" class="buttonfloat" name="btnStartStop"></div></td>
+			<td width="50%"><div x-mojo-element="Button" id="btnLap" class="buttonfloat" name="btnLap"></div></td>
+		</tr>
+	</table>
+	
+	<div id='LapsContainer'>
+		<div id="lstLaps" x-mojo-element="List"></div>
+	</div>
+</div>

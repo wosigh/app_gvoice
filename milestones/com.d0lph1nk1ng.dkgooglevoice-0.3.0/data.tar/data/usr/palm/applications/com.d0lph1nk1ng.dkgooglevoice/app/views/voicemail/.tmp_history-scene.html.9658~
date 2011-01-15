@@ -1,0 +1,31 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">
+	  dkGoogleVoice
+	</div>	
+	
+	<table width="100%" cellpadding="20">
+		<tr>			
+			<td width="50%" align="center">
+				<div id="number"></div>
+			</td>
+		</tr>
+		<tr>
+			<td width="50%" align="left">
+				<div x-mojo-element="RichTextEdit" id="message" name="message">Text message body</div>
+			</td>
+		</tr>
+	</table>
+	<table width="100%">
+		<tr>
+			<td width="50%" align="center"><div x-mojo-element="Button" id="btnCall" class="buttonfloat" name="btnCall"></div></td>
+			<td width="50%" align="center"><div x-mojo-element="Button" id="btnSMS" class="buttonfloat" name="btnSMS"></div></td>
+		</tr>
+	</table>
+	<table width="100%">
+		<tr>
+			<td width="75%" align="center"><div id="status"></div></td>
+		</tr>
+	</table>
+	
+	<!-- <div x-mojo-element="RadioButton" id="menuBar" style="visibility:hidden;"></div> -->
+</div>

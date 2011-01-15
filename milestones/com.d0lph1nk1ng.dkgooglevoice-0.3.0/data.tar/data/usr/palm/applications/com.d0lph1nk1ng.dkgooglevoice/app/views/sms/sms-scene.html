@@ -1,0 +1,33 @@
+<div id="main" class="palm-hasheader">
+	<div class="palm-header center" id="main-hdr">Send a Text</div>	
+	
+	<center>
+		<table class="sms-table">
+			<tr>
+				<td align="left" valign="middle" style="color: white;">To: </td>
+				<td width="310" valign="middle"><div x-mojo-element="TextField" id="phoneNumber" style="width: 225px; font-size: 34px;"></div></td>
+				<td id="btnContacts"><img src="images/smsContacts.png"></img></td>
+			</tr>
+			<tr>
+				<td colspan=3>				
+					<div x-mojo-element="RichTextEdit" id="message" class="message" onkeyup="countChars(this);"></div>
+				</td>		
+			</tr>
+			<tr>
+				<td colspan=3 id="charCount" align="right" style="color: white;">				
+					0 / 160
+				</td>		
+			</tr>
+			<tr>
+				<td colspan=3 align="center" id="status">&nbsp;</td>		
+			</tr>
+			<tr>
+				<td colspan=3 align="center">				
+					<div x-mojo-element="Button" id="btnSMS" class="buttonfloat" name="btnSMS"></div>
+				</td>		
+			</tr>			
+		</table>
+	</center>	
+</div>
+
+<!-- class="message"--> 

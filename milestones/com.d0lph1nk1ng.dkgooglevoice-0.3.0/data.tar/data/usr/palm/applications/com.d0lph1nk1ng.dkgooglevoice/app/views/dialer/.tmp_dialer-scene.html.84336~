@@ -1,0 +1,31 @@
+<div id="phoneNumber"></div>
+<table class="dialer-table" cellspacing=0>
+	<tr>			
+		<td colspan=3></td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '1';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '2';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '3';">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '4';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '5';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '6';">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '7';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '8';">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '9';">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '*';">&nbsp;</td>
+		<td class="dialer-cell" onclick="if(document.getElementById('phoneNumber').length = 0) { document.getElementById('phoneNumber').innerHTML += '+'; } else { document.getElementById('phoneNumber').innerHTML += '0'; }">&nbsp;</td>
+		<td class="dialer-cell" onclick="document.getElementById('phoneNumber').innerHTML += '#';">&nbsp;</td>
+	</tr>
+	<tr>
+		<td class="dialer-cell" id="btnContacts">Contacts</td>
+		<td class="dialer-cell" id="btnCall">Dial</td>
+		<td class="dialer-cell" onclick="var num = document.getElementById('phoneNumber').innerHTML; num = num.substr(0, num.length-1); document.getElementById('phoneNumber').innerHTML = num;"><=</td>
+	</tr>
+</table>

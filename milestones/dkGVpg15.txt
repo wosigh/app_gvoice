@@ -1,0 +1,23 @@
+cd C:\Program Files\Palm\SDK\bin
+palm-package -o H:\programming\PRE_WORKSPACE\AppCatalog --exclude="milestones" H:\programming\PRE_WORKSPACE\AppCatalog\dkGoogleVoice
+palm-package -o H:\programming\PRE_WORKSPACE\AppCatalog --exclude="milestones" H:\programming\PRE_WORKSPACE\AppCatalog\SimonSays
+palm-package -o H:\programming\PRE_WORKSPACE\AppCatalog --exclude="milestones" H:\programming\PRE_WORKSPACE\AppCatalog\LightSword
+palm-package -o H:\programming\PRE_WORKSPACE\AppCatalog --exclude="milestones" H:\programming\PRE_WORKSPACE\AppCatalog\DigiClock
+
+palm-package -o H:\programming\PRE_WORKSPACE\Homebrew --exclude="milestones" H:\programming\PRE_WORKSPACE\Homebrew\iTunesRemote
+
+dkGV page 15 stuff
+- multiple SMS errors
+- sporadic freezes contacting google
+- put spinner on send sms btn, clear on response
+- timeout spinners on smsSend and getConnected
+- on dialer/sms, on keydown, pass keys to setContact (on sms, ignore #'s)
+- cache hist n vm
+- notifications on new history/voicemail
+	--------- backlog
+- added find contact on keyDown
+- save to contacts new/existing
+- play voicemails
+	https://www.google.com/voice/m/playvoicemail?id=1a32e5140ee35b8d2154b0b35e62d5f0cf3d3cc3
+	https://www.google.com/voice/m/playvoicemail?id=1a32e5140ee35b8d2154b0b35e62d5f0cf3d3cc3&auth=DQAAAJAAAACKizf6takKG6XqRHev2nN6pmQ_nZkJHEwv2bn6y6NVICMwmTcqr9pvWUUs5PwKeOg1qqZWX6oA2mvYjMork5yrV_r172psIvKALZrOZT4Lkd6h1kut5UwbU6uwVKOHso9qSpVUlnNPXtRVamFJR2bGZPq2jcx4IOBinpNm4TVnlbFnDpm_7fEq0iRgPrgzkoM
+	https://www.google.com/voice/inbox/recent/voicemail/
